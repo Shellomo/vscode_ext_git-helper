@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+    <!-- Dark Background Circle -->
+    <circle cx="64" cy="64" r="64" fill="#2D3239"/>
+    
+    <!-- Git Branch Structure (Coral/Salmon color) -->
+    <path d="M44 44 L44 84 L84 84" 
+          stroke="#FF7B72" 
+          stroke-width="8" 
+          fill="none" 
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+    
+    <!-- Git Nodes (Light Green) -->
+    <circle cx="44" cy="44" r="12" fill="#7EE787"/>
+    <circle cx="44" cy="84" r="12" fill="#7EE787"/>
+    <circle cx="84" cy="84" r="12" fill="#7EE787"/>
+    
+    <!-- Small Coral Dot -->
+    <circle cx="30" cy="84" r="6" fill="#FF7B72"/>
+    
+    <!-- Blue Square with Connecting Elements -->
+    <rect x="84" cy="44" width="20" height="20" fill="#79C0FF" transform="rotate(45, 94, 44)"/>
+    <circle cx="94" cy="34" r="8" fill="#79C0FF"/>
+    <circle cx="84" cy="44" r="4" fill="#FF7B72"/>
+</svg>
