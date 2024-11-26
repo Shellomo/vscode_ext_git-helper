@@ -4,7 +4,7 @@
   "description": "Helps solve common Git problems and streamlines Git operations",
   "version": "0.0.1",
   "publisher": "Shellomo",
-  "icon": "media/logo.png",
+  "icon": "images/logo.png",
   "license": "MIT",
   "repository": {
     "type": "git",
