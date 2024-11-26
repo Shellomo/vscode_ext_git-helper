@@ -110,5 +110,3 @@ This extension is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 ---
 
 **Enjoy coding without Git headaches! 🎉**
-
-Note: Remember to replace the image placeholders and links with actual content before publishing.
