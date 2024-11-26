@@ -2,7 +2,7 @@
   "name": "vscode-git-helper",
   "displayName": "Git Helper",
   "description": "Helps solve common Git problems and streamlines Git operations",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Shellomo",
   "icon": "images/logo.png",
   "license": "MIT",
