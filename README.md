@@ -79,7 +79,7 @@ This extension contributes the following commands:
 
 ## Known Issues 🐛
 
-No known issues at this time. If you find any, please report them on our [GitHub repository](link-to-your-repo).
+No known issues at this time. If you find any, please report them on our [GitHub repository](https://github.com/Shellomo/vscode_ext_git-helper).
 
 ## Release Notes 📝
 
@@ -93,7 +93,7 @@ Initial release of Git Helper:
 
 ## Contributing 🤝
 
-We welcome contributions! Please see our [contributing guidelines](link-to-contributing) for details.
+We welcome contributions!
 
 ## Support 💪
 

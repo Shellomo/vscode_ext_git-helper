@@ -1,63 +1,76 @@
 {
-    "name": "vscode-git-helper",
-    "displayName": "Git Helper",
-    "description": "Helps solve common Git problems and streamlines Git operations",
-    "version": "0.0.1",
-    "publisher": "Shellomo",
-    "icon": "media/logo.png",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": ""},
-    "engines": {
-        "vscode": "^1.80.0"
-    },
-    "categories": [
-        "Other"
-    ],
-    "activationEvents": [
-      "onStartupFinished"
-    ],
-    "main": "./out/extension.js",
-    "contributes": {
-        "commands": [
-            {
-                "command": "githelper.fixMergeConflicts",
-                "title": "Git Helper: Fix Merge Conflicts"
-            },
-            {
-                "command": "githelper.undoLastCommit",
-                "title": "Git Helper: Undo Last Commit"
-            },
-            {
-                "command": "githelper.stashChanges",
-                "title": "Git Helper: Stash Changes"
-            },
-            {
-                "command": "githelper.applyStash",
-                "title": "Git Helper: Apply Stash"
-            },
-            {
-                "command": "githelper.fixUntrackedFiles",
-                "title": "Git Helper: Fix Untracked Files"
-            },
-            {
-                "command": "githelper.cleanWorkingDirectory",
-                "title": "Git Helper: Clean Working Directory"
-            }
-        ]
-    },
-    "scripts": {
-        "vscode:prepublish": "npm run compile",
-        "compile": "tsc -p ./",
-        "watch": "tsc -watch -p ./"
-    },
-    "devDependencies": {
-        "@types/node": "^20.10.0",
-        "@types/vscode": "^1.80.0",
-        "typescript": "^5.3.2"
-    },
-    "dependencies": {
-        "simple-git": "^3.21.0"
-    }
+  "name": "vscode-git-helper",
+  "displayName": "Git Helper",
+  "description": "Helps solve common Git problems and streamlines Git operations",
+  "version": "0.0.1",
+  "publisher": "Shellomo",
+  "icon": "media/logo.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shellomo/vscode_ext_git-helper"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "git",
+    "git helper",
+    "git problems",
+    "git operations",
+    "git commands",
+    "git stash",
+    "git merge conflicts",
+    "git untracked files",
+    "git clean working directory"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "githelper.fixMergeConflicts",
+        "title": "Git Helper: Fix Merge Conflicts"
+      },
+      {
+        "command": "githelper.undoLastCommit",
+        "title": "Git Helper: Undo Last Commit"
+      },
+      {
+        "command": "githelper.stashChanges",
+        "title": "Git Helper: Stash Changes"
+      },
+      {
+        "command": "githelper.applyStash",
+        "title": "Git Helper: Apply Stash"
+      },
+      {
+        "command": "githelper.fixUntrackedFiles",
+        "title": "Git Helper: Fix Untracked Files"
+      },
+      {
+        "command": "githelper.cleanWorkingDirectory",
+        "title": "Git Helper: Clean Working Directory"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "simple-git": "^3.21.0",
+    "@vscode/extension-telemetry": "^0.9.8"
+  }
 }
